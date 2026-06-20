@@ -1,0 +1,58 @@
+body{
+    margin-top: 160px;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url("green\ background.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+#bj
+{
+    color: goldenrod
+}
+#msg
+{
+    font-style: italic;
+}
+#strtbutton,#newcard{
+    height: 30px;
+    width: 150px;
+    color: green;
+    background: rgb(210, 210, 59);
+    
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+}
+#strtbutton:hover{
+    background: goldenrod;
+}
+#newcard:hover
+{
+    background: goldenrod;
+}
+#card-align
+{
+    display: flex;
+    justify-content: center;
+}
+input
+{
+    margin-top: 15px;
+    width: 30px;
+    margin-left: 10px;
+    height: 30px;
+    color: white;
+    background: goldenrod;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+#sum
+{
+    margin-right: 60px;
+}
